@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+ overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  
+}
+.posts-row{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    /* height: 100%; */
+}
+.login-row{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    height: 100%;
+}
+.register-row{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    height: 100%;
+}
+.register-col{
+    background: #fff;
+    padding: 4rem;
+}
+.login-col{
+    background: #fff;
+    padding: 4rem;  
+}
+.login-container{
+    height: 100%;
+    background: -webkit-linear-gradient(left, #003366,#004080,#0059b3
+, #0073e6);
+
+}
+.posts-container{
+    height: 100%;
+      background: -webkit-linear-gradient(left, #003366,#004080,#0059b3
+, #0073e6); 
+}
+.register-container{
+    height: 100%;
+      background: -webkit-linear-gradient(left, #003366,#004080,#0059b3
+, #0073e6); 
+}
+.btn.btn-primary.log-submit-btn{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.btn.btn-primary.reg-submit-btn{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+
+
+}
+.btn.btn-success.create-btn{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+} 
+
+
+/* welcome page */
+.welcome-row{
+ 
+    margin: 1rem;
+   
+}
+.welcome-col{
+    justify-content: end;
+    display: flex;
+    width: 100%;  
+}
+.add-new-post{
+    justify-content: end;
+    display: flex;
+    padding: 1rem;
+}
+
+.navbar.navbar-dark.bg-dark ul li a{
+    padding: 1rem;
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navbar.navbar-dark.bg-dark ul{
+    display: flex;
+    justify-content: center;
+}
